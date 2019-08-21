@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package pb;
+
+//The Location service definition.
+service Location {
+    rpc ListCountries (ListCountriesRequest) returns (ListCountriesReply);
+    rpc CreateCountries (CreateCountriesRequest) returns (CreateCountriesReply);
+    rpc ListStates (ListStatesRequest) returns (ListStatesReply);
+    rpc CreateStates (CreateStatesRequest) returns (CreateStatesReply);
+    rpc ListCity (ListCityRequest) returns (ListCityReply);
+    rpc CreateCity (CreateCityRequest) returns (CreateCityReply);
+}
+
+message ListCountriesRequest {}
+
+message ListCountriesReply {
+    repeated Country data = 1;
+    bool status = 2;
+    string message = 3;
+    Error error = 4;
+}
+
+message CreateCountriesRequest {
+    Country data = 1;
+}
+
+message CreateCountriesReply {
+
+    bool status = 2;
+    string message = 3;
+    Error error = 4;
+}
+
+
+message ListStatesRequest {
+}
+
+message ListStatesReply {
+}
+
+message CreateStatesRequest {
+}
+
+message CreateStatesReply {
+}
+
+message ListCityRequest {
+}
+
+message ListCityReply {
+}
+
+message CreateCityRequest {
+}
+
+message CreateCityReply {
+}
+
+message Country {
+    string Uid = 1;
+    string countryName = 2;
+}
+
+message Error {
+    string userMessage = 1;
+    string internalMessage = 2;
+}
