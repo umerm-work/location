@@ -1,4 +1,4 @@
-# aone_location_service
+# location
 
 ## Location
 | # | Name| Required Token | Action | URL|

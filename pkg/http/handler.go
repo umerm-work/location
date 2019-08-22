@@ -3,7 +3,7 @@ package http
 import (
 	"context"
 	"encoding/json"
-	endpoint "github.com/fb-investments/aone_location_service/pkg/endpoint"
+	endpoint "github.com/fb-investments/location/pkg/endpoint"
 	http "github.com/go-kit/kit/transport/http"
 	handlers "github.com/gorilla/handlers"
 	mux "github.com/gorilla/mux"

@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/fb-investments/aone_location_service/pkg/io"
+	"github.com/fb-investments/location/pkg/io"
 	"github.com/go-kit/kit/log"
 )
 

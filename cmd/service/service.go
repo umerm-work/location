@@ -5,12 +5,12 @@ import (
 	"fmt"
 	http1 "net/http"
 
-	"github.com/fb-investments/aone_location_service/pkg/db/dgraph"
-	"github.com/fb-investments/aone_location_service/pkg/endpoint"
-	"github.com/fb-investments/aone_location_service/pkg/grpc"
-	"github.com/fb-investments/aone_location_service/pkg/grpc/pb"
-	"github.com/fb-investments/aone_location_service/pkg/http"
-	"github.com/fb-investments/aone_location_service/pkg/service"
+	"github.com/fb-investments/location/pkg/db/dgraph"
+	"github.com/fb-investments/location/pkg/endpoint"
+	"github.com/fb-investments/location/pkg/grpc"
+	"github.com/fb-investments/location/pkg/grpc/pb"
+	"github.com/fb-investments/location/pkg/http"
+	"github.com/fb-investments/location/pkg/service"
 
 	endpoint1 "github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/log"

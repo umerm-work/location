@@ -2,7 +2,7 @@
 package endpoint
 
 import (
-	service "github.com/fb-investments/aone_location_service/pkg/service"
+	service "github.com/fb-investments/location/pkg/service"
 	endpoint "github.com/go-kit/kit/endpoint"
 )
 

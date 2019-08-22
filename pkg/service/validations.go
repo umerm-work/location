@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/fb-investments/aone_location_service/pkg/io"
+	"github.com/fb-investments/location/pkg/io"
 	"gopkg.in/go-playground/validator.v9"
 )
 
