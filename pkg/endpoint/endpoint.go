@@ -2,8 +2,8 @@ package endpoint
 
 import (
 	"context"
-	"github.com/fb-investments/aone-location-service/pkg/io"
-	"github.com/fb-investments/aone-location-service/pkg/service"
+	"github.com/fb-investments/aone_location_service/pkg/io"
+	"github.com/fb-investments/aone_location_service/pkg/service"
 	"github.com/go-kit/kit/endpoint"
 	"fmt"
 )

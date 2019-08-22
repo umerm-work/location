@@ -2,8 +2,8 @@
 package service
 
 import (
-	endpoint "github.com/fb-investments/aone-location-service/pkg/endpoint"
-	service "github.com/fb-investments/aone-location-service/pkg/service"
+	endpoint "github.com/fb-investments/aone_location_service/pkg/endpoint"
+	service "github.com/fb-investments/aone_location_service/pkg/service"
 	endpoint1 "github.com/go-kit/kit/endpoint"
 	log "github.com/go-kit/kit/log"
 	prometheus "github.com/go-kit/kit/metrics/prometheus"

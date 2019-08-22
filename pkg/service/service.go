@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/fb-investments/aone-location-service/pkg/db/dgraph"
-	"github.com/fb-investments/aone-location-service/pkg/io"
+	"github.com/fb-investments/aone_location_service/pkg/db/dgraph"
+	"github.com/fb-investments/aone_location_service/pkg/io"
 	"github.com/go-kit/kit/log"
 )
 

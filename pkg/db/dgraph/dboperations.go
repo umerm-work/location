@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/fb-investments/aone-location-service/pkg/io"
+	"github.com/fb-investments/aone_location_service/pkg/io"
 	"github.com/dgraph-io/dgo"
 	"github.com/dgraph-io/dgo/protos/api"
 	"github.com/go-kit/kit/log"

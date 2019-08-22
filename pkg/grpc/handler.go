@@ -3,8 +3,8 @@ package grpc
 import (
 	"context"
 	"errors"
-	"github.com/fb-investments/aone-location-service/pkg/endpoint"
-	"github.com/fb-investments/aone-location-service/pkg/grpc/pb"
+	"github.com/fb-investments/aone_location_service/pkg/endpoint"
+	"github.com/fb-investments/aone_location_service/pkg/grpc/pb"
 	"github.com/go-kit/kit/transport/grpc"
 	context1 "golang.org/x/net/context"
 )

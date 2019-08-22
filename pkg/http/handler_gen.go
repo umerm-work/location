@@ -2,7 +2,7 @@
 package http
 
 import (
-	endpoint "github.com/fb-investments/aone-location-service/pkg/endpoint"
+	endpoint "github.com/fb-investments/aone_location_service/pkg/endpoint"
 	http "github.com/go-kit/kit/transport/http"
 	mux "github.com/gorilla/mux"
 	http1 "net/http"
